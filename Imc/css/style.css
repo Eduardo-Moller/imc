@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #e890f0;
+
+}
+h1{
+    text-align: center;
+    height: 100%;
+    font-weight:bold;
+}
+input,button{
+    border-radius: 15px;
+    border: #393939 2px solid;
+    height: 3vh;
+    width: 10vw;  
+    margin: 1vh; 
+    background-color: #fff;
+}
+button{
+    font-weight: bold;
+}
+#bloco{
+    margin-left: 28%;
+}
+td, tr {
+    padding: 1vh;
+    border: 2px solid #000;
+    text-align: center;
+}
+td{
+    background-color: #fff;
+    font-weight: bold;
+} 
+table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    input, button{
+        width: 40vw;
+    }
+  }
